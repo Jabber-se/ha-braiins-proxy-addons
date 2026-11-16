@@ -4,6 +4,11 @@
 
 Unofficial community Home Assistant add-on repository for running **Braiins Farm Proxy** (Stratum V1) together with its built-in **Web GUI**, **Prometheus** metrics database, and pre-configured **Grafana** monitoring dashboards.
 
+## System Requirements
+
+* **Architecture:** **`amd64` (x86_64) only** — works on standard PCs, mini-PCs (Intel NUC, Beelink, etc.), and x86 VMs. **Not compatible with Raspberry Pi (`arm64` / `armv7`)**, as the upstream Braiins Farm Proxy image only provides `amd64` builds.
+* **Home Assistant:** Home Assistant OS or Home Assistant Supervised (with Add-on Store support).
+
 ## Included Add-ons
 
 1. **Braiins Farm Proxy (`braiins_proxy`)**
