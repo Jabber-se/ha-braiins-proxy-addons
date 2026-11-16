@@ -1,0 +1,14 @@
+name: "Prometheus (Braiins Metrics)"
+description: "Time-series metrics database for Braiins Farm Proxy"
+version: "latest"
+slug: "prometheus"
+init: false
+arch:
+  - amd64
+webui: "http://[HOST]:[PORT:9090]"
+ports:
+  9090/tcp: 9090
+map:
+  - share:rw
+options: {}
+schema: {}

@@ -1,0 +1,23 @@
+name: "Braiins Farm Proxy"
+description: "Stratum V1 mining proxy with built-in Web GUI"
+version: "26.02-gui"
+slug: "braiins_proxy"
+init: false
+arch:
+  - amd64
+webui: "http://[HOST]:[PORT:7777]"
+ports:
+  3333/tcp: 3333
+  3334/tcp: 3334
+  3335/tcp: 3335
+  3336/tcp: 3336
+  3337/tcp: 3337
+  3338/tcp: 3338
+  3339/tcp: 3339
+  7777/tcp: 7777
+  8080/tcp: 8080
+  8081/tcp: 8081
+map:
+  - share:rw
+options: {}
+schema: {}

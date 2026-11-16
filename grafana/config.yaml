@@ -1,0 +1,14 @@
+name: "Grafana (Braiins Monitoring)"
+description: "Pre-configured dashboards and analytics for Braiins Farm Proxy"
+version: "latest"
+slug: "grafana"
+init: false
+arch:
+  - amd64
+webui: "http://[HOST]:[PORT:3000]"
+ports:
+  3000/tcp: 3000
+map:
+  - share:rw
+options: {}
+schema: {}

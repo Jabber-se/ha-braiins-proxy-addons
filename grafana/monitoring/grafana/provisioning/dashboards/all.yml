@@ -1,0 +1,12 @@
+apiVersion: 1
+
+providers:
+  - name: 'Braiins Farm Proxy'
+    orgId: 1
+    folder: 'Braiins'
+    type: file
+    disableDeletion: false
+    updateIntervalSeconds: 10
+    options:
+      path: /share/braiins_grafana/monitoring/grafana/provisioning/default_dashboards
+      foldersFromFilesStructure: true
